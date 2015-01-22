@@ -5,7 +5,7 @@ namespace AdventureMage.Actors
 {
 
     [RequireComponent(typeof (Player))]
-    public class Platformer2DUserControl : MonoBehaviour
+    public class PlayerController : MonoBehaviour
     {
         private Player character;
         private bool jump;

@@ -4,37 +4,18 @@ namespace AdventureMage.Actors.Spells
 {
     public class Wave : MonoBehaviour
     {
-        [SerializeField] private bool facingRight = true;
-
         private void Awake()
         {
-            if (!facingRight) {
-                facingRight = true;
-                Flip();
-            }
-
             Destroy(gameObject, 0.5f);
         }
 
         private void Update() {
-            transform.position -= transform.up * 0.3f;
+            transform.position -= transform.up * 0.2f;
 
-            Quaternion rot = transform.localRotation;
-            rot.z = rot.z - ((facingRight) ? 0.03f : -0.03f);
-            transform.localRotation = rot;
-        }
-
-        private void Flip()
-        {
-            facingRight = !facingRight;
-
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
-
-            Quaternion rotation = transform.localRotation;
-            rotation.z *= -1;
-            transform.localRotation = rotation;
+            float angle = transform.localEulerAngles.z;
+            float sign = (angle > 0 && angle <= 180) ? -1f : 1f;
+            angle = angle + (2.6f * sign);
+            transform.localEulerAngles = new Vector3(0, 0, angle);
         }
     }
 }
