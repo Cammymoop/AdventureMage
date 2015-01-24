@@ -39,8 +39,8 @@ namespace AdventureMage.Actors
                 Quaternion tempRot = Quaternion.identity;
                 for (int i = 0; i < numParticles; i++) {
                     Vector3 tempPos = new Vector3(position.x + Random.Range(-0.8f, 0.8f), position.y + Random.Range(-0.5f, 0.5f), position.z); 
-                    tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + Random.Range(-8, 8));
-                    Instantiate(wave, tempPos, rot);
+                    tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + Random.Range(-6, 6));
+                    Instantiate(wave, tempPos, tempRot);
                 }
 
                 shoot = false;
