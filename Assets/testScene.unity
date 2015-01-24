@@ -312,6 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d348460f2a1aad94a8b71c4f9e66f0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spellAngle: 90
   wave: {fileID: 400750, guid: 233477ce63457444fa8f7c1da0e61f1e, type: 2}
 --- !u!131 &831957504
 GUITexture:

@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21200750}
   - 95: {fileID: 9500750}
   - 114: {fileID: 11450556}
+  - 60: {fileID: 6057246}
   m_Layer: 0
   m_Name: waterAttack1
   m_TagString: Untagged
@@ -30,6 +31,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!60 &6057246
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100750}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Poly:
+    m_Paths:
+    - - {x: -.233333334, y: .899999976}
+      - {x: -.366666675, y: .100000001}
+      - {x: -.366666675, y: -.899999976}
+      - {x: .366666675, y: -.899999976}
+      - {x: .366666675, y: .300000012}
+      - {x: .233333334, y: .899999976}
 --- !u!95 &9500750
 Animator:
   serializedVersion: 3
@@ -56,6 +74,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6fe46eb72150643b2e707f296b946f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnSpeed: .5
+  moveSpeed: .200000003
+  Duration: .5
 --- !u!212 &21200750
 SpriteRenderer:
   m_ObjectHideFlags: 1
