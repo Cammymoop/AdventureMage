@@ -7,7 +7,7 @@ namespace AdventureMage.Actors
     [RequireComponent(typeof (Player))]
     public class ShootSpell : MonoBehaviour
     {
-        public float spellAngle = 90;
+        public float spellAngle = 98;
         
         private Player character;
         [SerializeField] Transform wave;
@@ -35,7 +35,13 @@ namespace AdventureMage.Actors
                 Quaternion rot = Quaternion.identity;
                 rot.eulerAngles = new Vector3(0, 0, sign * spellAngle);
 
-                Instantiate(wave, position, rot);
+                int numParticles = Random.Range(3, 5);
+                Quaternion tempRot = Quaternion.identity;
+                for (int i = 0; i < numParticles; i++) {
+                    Vector3 tempPos = new Vector3(position.x + Random.Range(-0.8f, 0.8f), position.y + Random.Range(-0.5f, 0.5f), position.z); 
+                    tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + Random.Range(-8, 8));
+                    Instantiate(wave, tempPos, rot);
+                }
 
                 shoot = false;
             }

@@ -13,7 +13,7 @@ namespace AdventureMage.Actors.Spells
             Destroy(gameObject, Duration);
         }
 
-        private void Update() {
+        private void FixedUpdate() {
             transform.position -= transform.up * moveSpeed;
 
             float angle = transform.localEulerAngles.z;
