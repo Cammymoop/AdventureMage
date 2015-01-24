@@ -77,6 +77,7 @@ MonoBehaviour:
   turnSpeed: .5
   moveSpeed: .200000003
   Duration: .5
+  pushForce: 4
 --- !u!212 &21200750
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -95,10 +96,10 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 859734157
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300044, guid: f74524cb1dde0a2499ebc69d2d634ebc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: .686274529}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
