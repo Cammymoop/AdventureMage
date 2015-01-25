@@ -8,6 +8,15 @@ namespace AdventureMage.Actors
     public class ShootSpell : MonoBehaviour
     {
         public float spellAngle = 98;
+
+        public float angleVarMin = 6f;
+        public float angleVarMax = 6f;
+        public float posVariation = 0.5f;
+        public int minNum = 3;
+        public int maxNum = 5;
+
+        public float deltaX = 2.0f;
+        public float deltaY = 0.0f;
         
         private Player character;
         [SerializeField] Transform wave;
@@ -30,17 +39,20 @@ namespace AdventureMage.Actors
             if (shoot) {
                 Vector3 position = character.getPosition();
                 float sign = (character.getFacingRight() ? 1f : -1f);
-                position.x = position.x + sign * 2;
+                position.x += sign * deltaX;
+                position.y += deltaY;
 
                 Quaternion rot = Quaternion.identity;
-                rot.eulerAngles = new Vector3(0, 0, spellAngle);
+                rot.eulerAngles = new Vector3(0, 0, sign * spellAngle);
 
-                int numParticles = Random.Range(3, 5);
+                int numParticles = Random.Range(minNum, maxNum);
                 Quaternion tempRot = Quaternion.identity;
                 for (int i = 0; i < numParticles; i++) {
-                    Vector3 tempPos = new Vector3(position.x + Random.Range(-0.8f, 0.8f), position.y + Random.Range(-0.5f, 0.5f), position.z); 
-                    tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + Random.Range(-6, 6));
-                    Instantiate(wave, tempPos, tempRot);
+                    Vector3 tempPos = new Vector3(position.x + Random.Range(-posVariation, posVariation), position.y + Random.Range(-posVariation, posVariation), position.z); 
+                    tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + Random.Range(angleVarMin, angleVarMax));
+                    Object obj = Instantiate(wave, tempPos, tempRot);
+                    Transform gObj = obj as Transform;
+                    gObj.localScale = new Vector3(sign, 1, 1);
                 }
 
                 shoot = false;

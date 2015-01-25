@@ -526,8 +526,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d348460f2a1aad94a8b71c4f9e66f0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellAngle: 8
-  wave: {fileID: 436190, guid: 64bdc47bfeca4e7499c005f07024f718, type: 2}
+  spellAngle: 0
+  angleVarMin: 0
+  angleVarMax: 0
+  posVariation: .5
+  minNum: 1
+  maxNum: 1
+  deltaX: 1.39999998
+  deltaY: .699999988
+  wave: {fileID: 400750, guid: 233477ce63457444fa8f7c1da0e61f1e, type: 2}
 --- !u!131 &831957504
 GUITexture:
   m_ObjectHideFlags: 0

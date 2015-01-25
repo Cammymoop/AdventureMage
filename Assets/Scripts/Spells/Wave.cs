@@ -20,7 +20,7 @@ namespace AdventureMage.Actors.Spells
         }
 
         private void FixedUpdate() {
-            transform.position += transform.right * moveSpeed;
+            transform.position += (transform.right * moveSpeed) * transform.localScale.x;
 
             float angle = transform.localEulerAngles.z;
             float sign = (angle > 0 && angle <= 180) ? -1f : 1f;
@@ -32,12 +32,13 @@ namespace AdventureMage.Actors.Spells
         }
 
         private void OnTriggerEnter2D(Collider2D obj) {
-            obj.attachedRigidbody.AddForce(vectorFromAngle(transform.rotation.eulerAngles.z, currentForce), ForceMode2D.Impulse);
+            float angle = transform.rotation.eulerAngles.z - (transform.localScale.x * 90);
+            obj.attachedRigidbody.AddForce(vectorFromAngle(angle, currentForce), ForceMode2D.Impulse);
         }
 
         private Vector2 vectorFromAngle(float angle, float magnitude) {
             Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            Vector3 XYZdirection = rotation * new Vector3(magnitude, 0.0f, 0.0f);
+            Vector3 XYZdirection = rotation * new Vector3(0.0f, magnitude, 0.0f);
             return XYZdirection; //Implicitly converts to Vector2
         }
     }
