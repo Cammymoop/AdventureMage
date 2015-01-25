@@ -33,7 +33,7 @@ namespace AdventureMage.Actors
                 position.x = position.x + sign * 2;
 
                 Quaternion rot = Quaternion.identity;
-                rot.eulerAngles = new Vector3(0, 0, sign * spellAngle);
+                rot.eulerAngles = new Vector3(0, 0, spellAngle);
 
                 int numParticles = Random.Range(3, 5);
                 Quaternion tempRot = Quaternion.identity;

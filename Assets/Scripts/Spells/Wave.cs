@@ -20,7 +20,7 @@ namespace AdventureMage.Actors.Spells
         }
 
         private void FixedUpdate() {
-            transform.position -= transform.up * moveSpeed;
+            transform.position += transform.right * moveSpeed;
 
             float angle = transform.localEulerAngles.z;
             float sign = (angle > 0 && angle <= 180) ? -1f : 1f;
@@ -32,7 +32,7 @@ namespace AdventureMage.Actors.Spells
         }
 
         private void OnTriggerEnter2D(Collider2D obj) {
-            obj.attachedRigidbody.AddForce(vectorFromAngle(transform.rotation.eulerAngles.z - 90, currentForce), ForceMode2D.Impulse);
+            obj.attachedRigidbody.AddForce(vectorFromAngle(transform.rotation.eulerAngles.z, currentForce), ForceMode2D.Impulse);
         }
 
         private Vector2 vectorFromAngle(float angle, float magnitude) {
