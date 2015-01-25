@@ -5,7 +5,7 @@ namespace AdventureMage.Actors
     public class PunchingBag : MonoBehaviour
     {
         [SerializeField] private bool facingRight = true;
-
+		public int health = 10;
         private void Awake()
         {
             if (!facingRight) {
@@ -21,5 +21,12 @@ namespace AdventureMage.Actors
             theScale.x *= -1;
             transform.localScale = theScale;
         }
+    void Update ()
+    {
+    	if (health <=  0)
+    		{
+    		Destroy(gameObject);
+    		}
+    	}
     }
 }
