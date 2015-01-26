@@ -1119,7 +1119,7 @@ MonoBehaviour:
   airControl: 1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 513
+    m_Bits: 1
 --- !u!50 &831957499
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellAngle: 0
   angleVarMin: 0
-  angleVarMax: 0
+  angleVarMax: 10
   posVariation: 0
   minNum: 1
   maxNum: 1
