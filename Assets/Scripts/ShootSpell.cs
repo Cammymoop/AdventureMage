@@ -49,7 +49,7 @@ namespace AdventureMage.Actors
                 Quaternion tempRot = Quaternion.identity;
                 for (int i = 0; i < numParticles; i++) {
                     Vector3 tempPos = new Vector3(position.x + Random.Range(-posVariation, posVariation), position.y + Random.Range(-posVariation, posVariation), position.z); 
-                    tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + Random.Range(angleVarMin, angleVarMax));
+                    tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + (Random.Range(angleVarMin, angleVarMax) * sign));
                     Object obj = Instantiate(wave, tempPos, tempRot);
                     Transform gObj = obj as Transform;
                     gObj.localScale = new Vector3(sign, 1, 1);
