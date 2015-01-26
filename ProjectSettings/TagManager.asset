@@ -51,6 +51,10 @@ TagManager:
     userID: 2
     uniqueID: 1859086223
     locked: 0
+  - name: stuff
+    userID: 6
+    uniqueID: 2634107625
+    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
@@ -66,8 +70,4 @@ TagManager:
   - name: UI
     userID: 4
     uniqueID: 771169021
-    locked: 0
-  - name: stuff
-    userID: 6
-    uniqueID: 2634107625
     locked: 0
