@@ -2370,6 +2370,7 @@ GameObject:
   - 4: {fileID: 1214127460}
   - 212: {fileID: 1214127459}
   - 61: {fileID: 1214127461}
+  - 114: {fileID: 1214127462}
   m_Layer: 0
   m_Name: house
   m_TagString: Untagged
@@ -2422,6 +2423,17 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: 1.30152905, y: 2.62710309}
   m_Center: {x: 1.42987752, y: -3.68644834}
+--- !u!114 &1214127462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1214127458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d9b4c7d02bbde4eabbaac645653b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1229682042
 GameObject:
   m_ObjectHideFlags: 0
