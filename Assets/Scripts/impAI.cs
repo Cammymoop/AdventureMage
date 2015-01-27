@@ -46,7 +46,7 @@ public class impAI : MonoBehaviour {
 	}
 	
 	public void OnPathComplete(Path p){
-		Debug.Log ("got a path, did it have an error?" +p.error);
+		//Debug.Log ("got a path, did it have an error?" +p.error);
 		if (!p.error){
 			path= p;
 			currentWaypoint = 0;
@@ -72,7 +72,7 @@ public class impAI : MonoBehaviour {
 		if (currentWaypoint >= path.vectorPath.Count) {
 			if (pathIsEnded)
 				return;
-			Debug.Log("end reached.");
+			//Debug.Log("end reached.");
 			pathIsEnded = true;
 			return;
 		}

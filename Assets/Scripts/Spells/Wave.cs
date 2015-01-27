@@ -34,6 +34,8 @@ namespace AdventureMage.Actors.Spells
         private void OnTriggerEnter2D(Collider2D obj) {
             float angle = transform.rotation.eulerAngles.z - (transform.localScale.x * 90);
             obj.attachedRigidbody.AddForce(vectorFromAngle(angle, currentForce), ForceMode2D.Impulse);
+
+            obj.gameObject.BroadcastMessage("takeDamage", 1, SendMessageOptions.DontRequireReceiver);
         }
 
         private Vector2 vectorFromAngle(float angle, float magnitude) {

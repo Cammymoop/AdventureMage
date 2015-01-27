@@ -13,6 +13,11 @@ namespace AdventureMage.Actors
             }
         }
 
+        public void takeDamage(int dmg)
+        {
+            health -= dmg;
+        }
+
         private void Flip()
         {
             facingRight = !facingRight;
@@ -21,12 +26,13 @@ namespace AdventureMage.Actors
             theScale.x *= -1;
             transform.localScale = theScale;
         }
-    void Update ()
-    {
-    	if (health <=  0)
-    		{
-    		Destroy(gameObject);
-    		}
-    	}
+
+        void Update()
+        {
+            if (health <=  0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }
