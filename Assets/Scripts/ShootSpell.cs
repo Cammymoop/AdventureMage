@@ -8,7 +8,8 @@ namespace AdventureMage.Actors
     public class ShootSpell : MonoBehaviour
     {
         public float spellAngle = 98;
-
+		public float delayTime;
+		private float lastTimeShot= 0;
         public float angleVarMin = 6f;
         public float angleVarMax = 6f;
         public float posVariation = 0.5f;
@@ -25,6 +26,7 @@ namespace AdventureMage.Actors
         private void Awake()
         {
             character = GetComponent<Player>();
+            lastTimeShot = delayTime;
         }
 
         private void Update()
@@ -35,8 +37,13 @@ namespace AdventureMage.Actors
         }
 
         private void FixedUpdate()
-        {
+        { lastTimeShot += Time.deltaTime;
+        	if (lastTimeShot < delayTime){
+        		shoot = false;
+        		return;
+        	}
             if (shoot) {
+            lastTimeShot = 0;
                 Vector3 position = character.getPosition();
                 float sign = (character.getFacingRight() ? 1f : -1f);
                 position.x += sign * deltaX;
