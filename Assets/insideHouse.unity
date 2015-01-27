@@ -642,6 +642,7 @@ GameObject:
   - 4: {fileID: 1576700216}
   - 212: {fileID: 1576700215}
   - 61: {fileID: 1576700217}
+  - 114: {fileID: 1576700218}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -694,6 +695,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: 2.20000005, y: 4.19999981}
   m_Center: {x: 0, y: 0}
+--- !u!114 &1576700218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576700214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d9b4c7d02bbde4eabbaac645653b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScene: testScene
 --- !u!1 &1905592337
 GameObject:
   m_ObjectHideFlags: 0
