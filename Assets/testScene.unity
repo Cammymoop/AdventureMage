@@ -2369,6 +2369,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1214127460}
   - 212: {fileID: 1214127459}
+  - 61: {fileID: 1214127461}
   m_Layer: 0
   m_Name: house
   m_TagString: Untagged
@@ -2410,6 +2411,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
+--- !u!61 &1214127461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1214127458}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 1.30152905, y: 2.62710309}
+  m_Center: {x: 1.42987752, y: -3.68644834}
 --- !u!1 &1229682042
 GameObject:
   m_ObjectHideFlags: 0
