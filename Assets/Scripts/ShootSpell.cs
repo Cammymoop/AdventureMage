@@ -7,6 +7,7 @@ namespace AdventureMage.Actors
     [RequireComponent(typeof (Player))]
     public class ShootSpell : MonoBehaviour
     {
+        public string spellButton = "Fire1";
         public float spellAngle = 98;
 		public float delayTime;
 		private float lastTimeShot= 0;
@@ -32,7 +33,7 @@ namespace AdventureMage.Actors
         private void Update()
         {
             if(!shoot) {
-                shoot = CrossPlatformInputManager.GetButtonDown("Fire1");
+                shoot = CrossPlatformInputManager.GetButtonDown(spellButton);
             }
         }
 

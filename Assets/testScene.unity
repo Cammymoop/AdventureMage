@@ -1957,6 +1957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d348460f2a1aad94a8b71c4f9e66f0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spellButton: Fire1
   spellAngle: 0
   delayTime: .5
   angleVarMin: 0
