@@ -553,7 +553,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 20600000}
+  - {fileID: 7400000, guid: d789a239fc98b9c40808aca2f7264248, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 528, y: 48, z: 0}
   m_IKOnFeet: 0
@@ -583,7 +583,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 1c4aa503092e12040ac412fec79b5d67, type: 2}
+  - {fileID: 7400000, guid: 9069e44fbedfd714882d7eb4fe155ce9, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: -180, y: 132, z: 0}
   m_IKOnFeet: 0
@@ -598,9 +598,24 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 5f88bded061933e41a9ed57ae1d07946, type: 2}
+  - {fileID: 7400000, guid: 9069e44fbedfd714882d7eb4fe155ce9, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 144, y: 132, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1102 &110279826
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: magejump
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: d789a239fc98b9c40808aca2f7264248, type: 2}
+  m_ParentStateMachine: {fileID: 110700000}
+  m_Position: {x: -433, y: 113, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -619,6 +634,7 @@ StateMachine:
   - {fileID: 110272440}
   - {fileID: 110205773}
   - {fileID: 110200395}
+  - {fileID: 110279826}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
