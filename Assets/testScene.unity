@@ -2885,7 +2885,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: 1.66255224
+  m_Radius: 1.04838419
   m_Center: {x: 0, y: 0}
 --- !u!114 &1275745244
 MonoBehaviour:
