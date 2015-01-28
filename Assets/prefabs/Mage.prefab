@@ -48,6 +48,7 @@ GameObject:
   - 61: {fileID: 6116352}
   - 131: {fileID: 13116352}
   - 114: {fileID: 11416348}
+  - 114: {fileID: 11467878}
   m_Layer: 11
   m_Name: Mage
   m_TagString: Player
@@ -101,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0500000007, y: 3.01999998, z: 0}
+  m_LocalPosition: {x: .0500000007, y: 2.06999993, z: 0}
   m_LocalScale: {x: 1.77153289, y: 1.77153039, z: 1}
   m_Children:
   - {fileID: 416352}
@@ -129,7 +130,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 116350}
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: .5
+  m_AngularDrag: .300000012
   m_GravityScale: 3
   m_FixedAngle: 1
   m_IsKinematic: 0
@@ -184,7 +185,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d348460f2a1aad94a8b71c4f9e66f0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spellButton: Fire1
   spellAngle: 0
+  delayTime: .5
   angleVarMin: 0
   angleVarMax: 0
   posVariation: 0
@@ -222,6 +225,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a5644ffe7e2664fb8f89fd606adb65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11467878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d348460f2a1aad94a8b71c4f9e66f0dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spellButton: Fire2
+  spellAngle: 0
+  delayTime: 0
+  angleVarMin: 0
+  angleVarMax: 0
+  posVariation: 0
+  minNum: 1
+  maxNum: 1
+  deltaX: 3
+  deltaY: -.300000012
+  wave: {fileID: 435742, guid: fc394e6e65331d64ab221d984e1ba410, type: 2}
 --- !u!131 &13116352
 GUITexture:
   m_ObjectHideFlags: 1

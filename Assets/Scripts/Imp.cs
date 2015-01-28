@@ -20,6 +20,7 @@ namespace AdventureMage.Actors
 
         public void takeDamage(int dmg)
         {
+            Debug.Log("taking " + dmg);
             health -= dmg;
         }
 
