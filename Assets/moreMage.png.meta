@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 97333e2f3b7b6774a89817b41f3f3fdd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: moreMage_0
+    21300002: moreMage_1
+    21300004: moreMage_2
+    21300006: moreMage_3
+    21300008: moreMage_4
+    21300010: moreMage_5
+    21300012: moreMage_6
+    21300014: moreMage_7
+    21300016: moreMage_8
+    21300018: moreMage_9
+    21300020: moreMage_10
+    21300022: moreMage_11
+    21300024: moreMage_12
+    21300026: moreMage_13
+    21300028: moreMage_14
+    21300030: moreMage_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: moreMage_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 18
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+    - name: moreMage_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 18
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 18
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 18
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 18
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3
+        width: 8
+        height: 14
+      alignment: 9
+      pivot: {x: .5, y: .874813259}
+      border: {x: 0, y: 5, z: 0, w: 0}
+    - name: moreMage_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: moreMage_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
