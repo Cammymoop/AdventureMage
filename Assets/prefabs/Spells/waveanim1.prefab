@@ -78,7 +78,7 @@ MonoBehaviour:
   turnSpeed: 0
   moveSpeed: .200000003
   Duration: .5
-  pushForce: 5
+  pushForce: 20
 --- !u!212 &21269268
 SpriteRenderer:
   m_ObjectHideFlags: 1
