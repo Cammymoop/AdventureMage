@@ -245,7 +245,7 @@ MonoBehaviour:
   posVariation: .5
   minNum: 1
   maxNum: 1
-  deltaX: 2
+  deltaX: .769999981
   deltaY: 0
   wave: {fileID: 411592, guid: 1d2cc45689870a848ac7f2561506208f, type: 2}
 --- !u!114 &11467878

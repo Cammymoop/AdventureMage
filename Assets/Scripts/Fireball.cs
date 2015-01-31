@@ -10,20 +10,28 @@ namespace AdventureMage.Actors.Spells
         public float speed = 3.6f;
         public float duration = 3.6f;
 
+        private Animator anim;
+
         private void Awake()
         {
             Destroy(gameObject, duration);
+            anim = GetComponent<Animator>();
 
             transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         }
 
         private void FixedUpdate() {
-            transform.position += (transform.right * speed) * transform.localScale.x;
+            if (!anim.GetBool("Hit")) {
+                transform.position += (transform.right * speed) * transform.localScale.x;
+            }
         }
 
         private void OnTriggerEnter2D(Collider2D obj) {
-            obj.gameObject.BroadcastMessage("takeDamage", damage, SendMessageOptions.DontRequireReceiver);
-            Destroy(gameObject);
+            if (!anim.GetBool("Hit")) {
+                obj.gameObject.BroadcastMessage("takeDamage", damage, SendMessageOptions.DontRequireReceiver);
+                Destroy(gameObject, 0.3f);
+                anim.SetBool("Hit", true);
+            }
         }
     }
 }
