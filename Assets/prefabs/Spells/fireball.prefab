@@ -10,6 +10,8 @@ GameObject:
   - 4: {fileID: 411592}
   - 212: {fileID: 21211592}
   - 95: {fileID: 9511592}
+  - 114: {fileID: 11431102}
+  - 58: {fileID: 5877360}
   m_Layer: 0
   m_Name: fireball
   m_TagString: Untagged
@@ -24,11 +26,22 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 111592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.703323, y: -21.6728878, z: 0}
+  m_LocalPosition: {x: 19.9878273, y: 13.6004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!58 &5877360
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111592}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 1.27999997
+  m_Center: {x: 1.76999998, y: 0}
 --- !u!95 &9511592
 Animator:
   serializedVersion: 3
@@ -44,6 +57,20 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11431102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a49fa8282db9e43b268ea46a3bbcc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 4
+  speed: .529999971
+  duration: 1.05999994
 --- !u!212 &21211592
 SpriteRenderer:
   m_ObjectHideFlags: 1
