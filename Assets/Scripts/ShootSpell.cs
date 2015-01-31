@@ -60,7 +60,7 @@ namespace AdventureMage.Actors
                     tempRot.eulerAngles = new Vector3(0, 0, rot.eulerAngles.z + (Random.Range(angleVarMin, angleVarMax) * sign));
                     Object obj = Instantiate(wave, tempPos, tempRot);
                     Transform gObj = obj as Transform;
-                    gObj.localScale = new Vector3(sign, 1, 1);
+                    gObj.localScale = new Vector3(sign * gObj.localScale.x, gObj.localScale.y, 1);
                 }
 
                 shoot = false;
