@@ -23,6 +23,7 @@ namespace AdventureMage.Actors
         private float ceilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         private Animator anim; // Reference to the player's animator component.
 
+        private bool shooting = false;
 
         private void Awake()
         {
@@ -41,6 +42,17 @@ namespace AdventureMage.Actors
 
             // Set the vertical animation
             anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
+
+        }
+
+        private void Update()
+        {
+            int shootState = Animator.StringToHash("Base Layer.mageShoot");
+            shooting = (anim.GetCurrentAnimatorStateInfo(0).nameHash == shootState);
+
+            if (anim.GetBool("Shooting") && !shooting) {
+                anim.SetBool("Shooting", false);
+            }
         }
 
         public Vector3 getPosition()
@@ -77,6 +89,9 @@ namespace AdventureMage.Actors
                 // The Speed animator parameter is set to the absolute value of the horizontal input.
                 anim.SetFloat("Speed", Mathf.Abs(move));
 
+                if (grounded && shooting) {
+                    move = 0f;
+                }
                 // Move the character
                 rigidbody2D.velocity = new Vector2(move*maxSpeed, rigidbody2D.velocity.y);
 
