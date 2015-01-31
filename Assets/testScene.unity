@@ -4294,7 +4294,7 @@ Transform:
   m_Children:
   - {fileID: 921242496}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!58 &1275745243
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4424,7 +4424,7 @@ Transform:
   - {fileID: 782106534}
   - {fileID: 1813694825}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!114 &1284683229
 MonoBehaviour:
   m_ObjectHideFlags: 0

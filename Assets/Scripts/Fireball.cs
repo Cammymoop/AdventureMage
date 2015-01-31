@@ -27,7 +27,7 @@ namespace AdventureMage.Actors.Spells
         }
 
         private void OnTriggerEnter2D(Collider2D obj) {
-            if (!anim.GetBool("Hit")) {
+            if (!anim.GetBool("Hit") && obj.gameObject.tag != "Player") {
                 obj.gameObject.BroadcastMessage("takeDamage", damage, SendMessageOptions.DontRequireReceiver);
                 Destroy(gameObject, 0.3f);
                 anim.SetBool("Hit", true);
