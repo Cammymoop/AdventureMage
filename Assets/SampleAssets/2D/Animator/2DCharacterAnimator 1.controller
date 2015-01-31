@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 2DCharacterAnimator
+  m_Name: 2DCharacterAnimator 1
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: Speed
@@ -688,10 +688,15 @@ StateMachine:
       - {fileID: 110136443}
       - {fileID: 110161043}
     data:
-      first: {fileID: 110262872}
+      first: {fileID: 110200395}
       second:
-      - {fileID: 110113736}
-      - {fileID: 110164227}
+      - {fileID: 110197039}
+      - {fileID: 110120744}
+      - {fileID: 110130088}
+    data:
+      first: {fileID: 110205773}
+      second:
+      - {fileID: 110152261}
     data:
       first: {fileID: 110255108}
       second:
@@ -701,21 +706,16 @@ StateMachine:
       - {fileID: 110100562}
       - {fileID: 110156792}
     data:
+      first: {fileID: 110262872}
+      second:
+      - {fileID: 110113736}
+      - {fileID: 110164227}
+    data:
       first: {fileID: 110272440}
       second:
       - {fileID: 110100000}
       - {fileID: 110151961}
       - {fileID: 110102070}
-    data:
-      first: {fileID: 110205773}
-      second:
-      - {fileID: 110152261}
-    data:
-      first: {fileID: 110200395}
-      second:
-      - {fileID: 110197039}
-      - {fileID: 110120744}
-      - {fileID: 110130088}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 552, y: -72, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

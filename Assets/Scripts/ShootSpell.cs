@@ -21,6 +21,7 @@ namespace AdventureMage.Actors
         public float deltaY = 0.0f;
         
         private Player character;
+        private Animator anim;
         [SerializeField] Transform wave;
         private bool shoot;
 
@@ -28,6 +29,8 @@ namespace AdventureMage.Actors
         {
             character = GetComponent<Player>();
             lastTimeShot = delayTime;
+
+            anim = GetComponent<Animator>();
         }
 
         private void Update()
@@ -38,13 +41,15 @@ namespace AdventureMage.Actors
         }
 
         private void FixedUpdate()
-        { lastTimeShot += Time.deltaTime;
+        {
+            lastTimeShot += Time.deltaTime;
         	if (lastTimeShot < delayTime){
         		shoot = false;
         		return;
         	}
             if (shoot) {
-            lastTimeShot = 0;
+                lastTimeShot = 0;
+                anim.SetBool("Shooting", true);
                 Vector3 position = character.getPosition();
                 float sign = (character.getFacingRight() ? 1f : -1f);
                 position.x += sign * deltaX;
