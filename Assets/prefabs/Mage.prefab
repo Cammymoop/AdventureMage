@@ -103,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .109999999, y: 1.95000005, z: 0}
+  m_LocalPosition: {x: -28.0900002, y: 1.95000005, z: 0}
   m_LocalScale: {x: 1.62353718, y: 1.50020552, z: 1}
   m_Children:
   - {fileID: 416352}
@@ -194,8 +194,8 @@ MonoBehaviour:
   posVariation: 0
   minNum: 1
   maxNum: 1
-  deltaX: 1.39999998
-  deltaY: .200000003
+  deltaX: 1.60000002
+  deltaY: 1
   wave: {fileID: 469268, guid: 44acb726f80770e4687873d46cd046e2, type: 2}
 --- !u!114 &11416350
 MonoBehaviour:
@@ -247,7 +247,7 @@ MonoBehaviour:
   maxNum: 1
   deltaX: 2
   deltaY: 0
-  wave: {fileID: 411592, guid: a3afec2e31eec0740bdb2b68734c7d5d, type: 2}
+  wave: {fileID: 411592, guid: 1d2cc45689870a848ac7f2561506208f, type: 2}
 --- !u!114 &11467878
 MonoBehaviour:
   m_ObjectHideFlags: 1

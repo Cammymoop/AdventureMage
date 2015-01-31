@@ -15,7 +15,7 @@ namespace AdventureMage.Actors.Spells
 
         private void Awake()
         {
-			transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+            transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
             currentForce = pushForce;
             Destroy(gameObject, Duration);
         }
@@ -33,7 +33,7 @@ namespace AdventureMage.Actors.Spells
         }
 
         private void OnTriggerEnter2D(Collider2D obj) {
-            float angle = transform.rotation.eulerAngles.z - (transform.localScale.x * 90);
+            float angle = transform.rotation.eulerAngles.z - (Mathf.Sign(transform.localScale.x) * 90);
             obj.attachedRigidbody.AddForce(vectorFromAngle(angle, currentForce), ForceMode2D.Impulse);
 
             obj.gameObject.BroadcastMessage("takeDamage", 1, SendMessageOptions.DontRequireReceiver);
