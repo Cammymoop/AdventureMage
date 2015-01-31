@@ -68,7 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a49fa8282db9e43b268ea46a3bbcc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 4
+  damage: 5
   speed: .529999971
   duration: 1.05999994
 --- !u!212 &21211592
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 859734157
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: acf1648d7187038418fe1d732ad6004e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
