@@ -23,6 +23,7 @@ namespace AdventureMage.Actors
         private float ceilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         private Animator anim; // Reference to the player's animator component.
 
+        private bool shooting = false;
 
         private void Awake()
         {
