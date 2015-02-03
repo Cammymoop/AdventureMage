@@ -11,6 +11,7 @@ namespace AdventureMage.Actors.Spells
         private void Awake()
         {
             Destroy(gameObject, duration);
+			transform.localScale = new Vector3(1.3f, 1.3f, 1.3f);
         }
 
         private void OnTriggerEnter2D(Collider2D obj) {

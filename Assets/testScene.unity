@@ -1142,6 +1142,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11467878, guid: 69f816d07fca67e48b9162664c7aa683, type: 2}
+      propertyPath: deltaX
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69f816d07fca67e48b9162664c7aa683, type: 2}
   m_RootGameObject: {fileID: 1284683227}
@@ -4903,7 +4907,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: .200000003
   m_AngularDrag: .5
-  m_GravityScale: .00999999978
+  m_GravityScale: .800000012
   m_FixedAngle: 1
   m_IsKinematic: 0
   m_Interpolate: 1
@@ -5157,7 +5161,7 @@ MonoBehaviour:
   posVariation: 0
   minNum: 1
   maxNum: 1
-  deltaX: 3
+  deltaX: 4
   deltaY: -.300000012
   wave: {fileID: 435742, guid: fc394e6e65331d64ab221d984e1ba410, type: 2}
 --- !u!114 &1284683230
@@ -5479,6 +5483,10 @@ Prefab:
     - target: {fileID: 11488536, guid: b3af5d5e8579b694eb539c08d4ba1460, type: 2}
       propertyPath: UpdateRate
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062810, guid: b3af5d5e8579b694eb539c08d4ba1460, type: 2}
+      propertyPath: m_GravityScale
+      value: .800000012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b3af5d5e8579b694eb539c08d4ba1460, type: 2}
