@@ -6521,10 +6521,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1581216102}
   - 212: {fileID: 1581216101}
-  - 61: {fileID: 1581216100}
-  - 61: {fileID: 1581216103}
   - 114: {fileID: 1581216104}
   - 50: {fileID: 1581216105}
+  - 60: {fileID: 1581216100}
   m_Layer: 0
   m_Name: enemyFighter
   m_TagString: Untagged
@@ -6532,8 +6531,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1581216100
-BoxCollider2D:
+--- !u!60 &1581216100
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6541,8 +6540,16 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1.18985498, y: .170000002}
-  m_Center: {x: -.540000021, y: -.920000017}
+  m_Poly:
+    m_Paths:
+    - - {x: .567913055, y: .573014498}
+      - {x: -.432086945, y: .58650732}
+      - {x: -.418590546, y: -.686056137}
+      - {x: -1.19367218, y: -.772891045}
+      - {x: -1.18650436, y: -1.02278876}
+      - {x: -.268363953, y: -1.11394405}
+      - {x: -.158618927, y: -1.70464802}
+      - {x: .609294891, y: -1.67166114}
 --- !u!212 &1581216101
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6577,17 +6584,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 18
---- !u!61 &1581216103
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1581216099}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1.01759839, y: 2.21181965}
-  m_Center: {x: .0900000036, y: -.479999989}
 --- !u!114 &1581216104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6603,6 +6599,7 @@ MonoBehaviour:
   moveSpeed: 5
   minDistance: .5
   maxDistance: 10
+  health: 15
   isRight: 0
 --- !u!50 &1581216105
 Rigidbody2D:
