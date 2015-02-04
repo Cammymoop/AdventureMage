@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 471120}
   - 212: {fileID: 21271122}
   - 95: {fileID: 9571122}
-  - 61: {fileID: 6171122}
   m_Layer: 0
   m_Name: impFly
   m_TagString: Untagged
@@ -57,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.6800003, y: 5.84000015, z: 0}
+  m_LocalPosition: {x: 10.0578384, y: -.0179204941, z: 0}
   m_LocalScale: {x: 1.28436136, y: 1.06513286, z: 1}
   m_Children:
   - {fileID: 471120}
@@ -89,17 +88,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_Radius: .569999993
   m_Center: {x: 0, y: 0}
---- !u!61 &6171122
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 171120}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Size: {x: .174602509, y: .0524435043}
-  m_Center: {x: .0305414181, y: .458107948}
 --- !u!95 &9571122
 Animator:
   serializedVersion: 3
@@ -193,7 +181,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c74002ea0559cb746809478508721508, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 91e19c0cebde2c041ad2889784447ebb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
