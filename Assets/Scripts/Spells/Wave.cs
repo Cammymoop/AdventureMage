@@ -8,16 +8,20 @@ namespace AdventureMage.Actors.Spells
     	public float turnSpeed = 2.6f;
     	public float moveSpeed = 0.2f;
     	public float Duration = 0.5f;
+        public int damage = 1;
 
         public float pushForce = 5f;
         private float currentForce;
         private float elapsed = 0f;
+
+        private AdventureMage.DamageType dmg;
 
         private void Awake()
         {
             transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
             currentForce = pushForce;
             Destroy(gameObject, Duration);
+            dmg = new AdventureMage.DamageType(damage, null, new string[] {"player"});
         }
 
         private void FixedUpdate() {
@@ -36,7 +40,7 @@ namespace AdventureMage.Actors.Spells
             float angle = transform.rotation.eulerAngles.z - (Mathf.Sign(transform.localScale.x) * 90);
             obj.attachedRigidbody.AddForce(vectorFromAngle(angle, currentForce), ForceMode2D.Impulse);
 
-            obj.gameObject.BroadcastMessage("takeDamage", 1, SendMessageOptions.DontRequireReceiver);
+            obj.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
         }
 
         private Vector2 vectorFromAngle(float angle, float magnitude) {
