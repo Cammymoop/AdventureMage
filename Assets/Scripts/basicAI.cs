@@ -15,6 +15,8 @@ namespace AdventureMage.Actors
         public float maxDistance = 15f;
         public float verticleIgnore = 7f;
 
+        public int damage = 4;
+
         public int health = 15;
         public bool isRight = true;
 
@@ -24,11 +26,13 @@ namespace AdventureMage.Actors
         private bool facingRight = true;
 
         private Animator anim;
+        private AdventureMage.DamageType dmg;
 
         void Awake() {
             facingRight = isRight;
 
             anim = GetComponent<Animator>();
+            dmg = new AdventureMage.DamageType(damage);
         }    
 
         void Start () {
@@ -77,6 +81,7 @@ namespace AdventureMage.Actors
                     break;
                 case "idle":
                     if (Time.time - lastCharge > chargeDelay && distance > minDistance && distance < maxDistance) {
+                        faceTarget();
                         setState("charging");
                         lastCharge = Time.time;
                     } else if (distance < maxDistance) {
@@ -93,6 +98,12 @@ namespace AdventureMage.Actors
                 Destroy(gameObject);
             }
 		}
+
+        private void OnCollisionEnter2D(Collision2D coll) {
+            if (curState == "charging") {
+                coll.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
+            }
+        }
 
         private void setState(string state) {
             anim.SetBool("Blocking", (state == "defending"));

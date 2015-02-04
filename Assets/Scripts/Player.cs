@@ -54,6 +54,10 @@ namespace AdventureMage.Actors
             if (anim.GetBool("Shooting") && !shooting) {
                 anim.SetBool("Shooting", false);
             }
+
+            if (health <= 0) {
+                Application.LoadLevel(Application.loadedLevel);
+            }
         }
 
         public void takeDamage(AdventureMage.DamageType dmg)

@@ -26,7 +26,6 @@ public class impAI : MonoBehaviour {
 		rb = GetComponent<Rigidbody2D>();
 		
 		if (Target == null){
-			Debug.Log("no player found!!!!");
 			return;
 		}
 		

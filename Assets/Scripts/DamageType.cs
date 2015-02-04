@@ -11,6 +11,12 @@ namespace AdventureMage {
             damage = dmg;
             types = dmgTypes;
             immune = dmgImmune;
+            if (types == null) {
+                types = new string[] {};
+            }
+            if (immune == null) {
+                immune = new string[] {};
+            }
         }
     }
 }
