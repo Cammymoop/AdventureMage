@@ -23,6 +23,8 @@ namespace AdventureMage.Actors
         private float ceilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         private Animator anim; // Reference to the player's animator component.
 
+        public int health = 25;
+
         private bool shooting = false;
 
         private void Awake()
@@ -32,7 +34,6 @@ namespace AdventureMage.Actors
             ceilingCheck = transform.Find("CeilingCheck");
             anim = GetComponent<Animator>();
         }
-
 
         private void FixedUpdate()
         {
@@ -53,6 +54,17 @@ namespace AdventureMage.Actors
             if (anim.GetBool("Shooting") && !shooting) {
                 anim.SetBool("Shooting", false);
             }
+        }
+
+        public void takeDamage(AdventureMage.DamageType dmg)
+        {
+            foreach (string immune in dmg.immune) {
+                if (immune == "player") {
+                    return;
+                }
+            }
+            Debug.Log("Not immune: " + dmg.damage);
+			health -= dmg.damage;
         }
 
         public Vector3 getPosition()

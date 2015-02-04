@@ -18,10 +18,9 @@ namespace AdventureMage.Actors
             }
         }
 
-        public void takeDamage(int dmg)
+        public void takeDamage(AdventureMage.DamageType dmg)
         {
-            Debug.Log("taking " + dmg);
-            health -= dmg;
+            health -= dmg.damage;
         }
 
         private void Flip()

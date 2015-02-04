@@ -11,6 +11,7 @@ namespace AdventureMage.Actors.Spells
         public float duration = 3.6f;
 
         private Animator anim;
+        private AdventureMage.DamageType dmg;
 
         private void Awake()
         {
@@ -18,6 +19,7 @@ namespace AdventureMage.Actors.Spells
             anim = GetComponent<Animator>();
 
             transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+            dmg = new AdventureMage.DamageType(damage, null, new string[] {"player"});
         }
 
         private void FixedUpdate() {
@@ -28,7 +30,7 @@ namespace AdventureMage.Actors.Spells
 
         private void OnTriggerEnter2D(Collider2D obj) {
             if (!anim.GetBool("Hit") && obj.gameObject.tag != "Player") {
-                obj.gameObject.BroadcastMessage("takeDamage", damage, SendMessageOptions.DontRequireReceiver);
+                obj.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
                 Destroy(gameObject, 0.3f);
                 anim.SetBool("Hit", true);
             }
