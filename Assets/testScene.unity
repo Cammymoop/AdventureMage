@@ -893,7 +893,7 @@ Transform:
   - {fileID: 1238939320}
   - {fileID: 1727516762}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!1 &240820757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,7 +1148,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 416350, guid: 69f816d07fca67e48b9162664c7aa683, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11467878, guid: 69f816d07fca67e48b9162664c7aa683, type: 2}
       propertyPath: deltaX
@@ -1188,7 +1188,7 @@ Transform:
   - {fileID: 50424186}
   - {fileID: 679422923}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
 --- !u!1 &332266665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +1470,7 @@ Transform:
   - {fileID: 942976195}
   - {fileID: 2075670860}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!1001 &418112513
 Prefab:
   m_ObjectHideFlags: 0
@@ -1812,7 +1812,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!1 &533158851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,7 +2296,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
 --- !u!1 &774810835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,7 +2391,7 @@ Transform:
   - {fileID: 784224566}
   - {fileID: 1025654937}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!1 &782106533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2745,7 +2745,7 @@ Transform:
   m_LocalScale: {x: 25, y: 16, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!95 &863317854
 Animator:
   serializedVersion: 3
@@ -3201,7 +3201,7 @@ Transform:
   - {fileID: 1379081106}
   - {fileID: 920411587}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &921242492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3451,7 +3451,7 @@ Transform:
   m_LocalScale: {x: .300000012, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
 --- !u!1 &984897196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3567,7 +3567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   astarData:
     hasBeenReverted: 0
-    data: 504b03041400000808002bb843463f31c55b3f020000550400000b0024006772617068302e6a736f6e0a00200000000000010018002cfe239f3740d00122fe239f3740d00118fe239f3740d0015d535d6fda3014fd2b939f49643b211fbc7540d9a46eadda4d7b98f660920b582436b29d155af1df77ed240c0a120ae7dc8f73eebd7927db4ed664f64efe8aa6033223655d894d41539a675470584722afeb352fa9a8614d214bc97942843d40e59e85939accd88448ab5b704656776adb60153a21463b4f2b5ffb48665189d829306ff88b352a500ecc40f3222e33ce589a84289ec7ac48d384b1101eb1983146339ef265c47c72a7aa46b407a85fe41b8c3568df82511fa1740d3dc9b1976e1a690735ee74f0469fc5894c482d052af73ab0d50ee476e76e331e371b0baeb7244e0b69d07828443e6bb7c30aadb0fbab014e59721e2b7dbba52286ccc6e8f6cbd08779c56e27ab3d8aa9844568231a0bb7e0e25a627718dcf65ea738369a66695a2c235af4c3a271d97fd2f3958ff90e2a14e34c07a3bc1ba853afa2d98b7503bf76a0beeb95d19daa2fac05bee8ff9cbde5e3bc91ed3aa818ffdc1da50da343e0a5d17ec67ee76070115f517eb8061b5210f3927e5af821b6f6627a80efa5b10e89e057744e3f48b55f1959ff8f1cd185b4ee41b632cc1277ee6dad756730922cc38c71029d9b6ba3c083bd990328d1b8d3137673b71bfec05cfa7dc0ef45e574bf8f8119eefe363c809758bf6ba9305f344f3d1f5ae2a0d4284ce1a251b9f7fa6965c4c19f576dc4eb4abeb5fa225faa8d7ea90c807a0cb943d356e00b78bc9c1b86ff66c32514c5840edf0f0773752c811e33f20c1f59c969c90b7ce7688e5c94b3982639168b388f0b369d6609c7e7b82c6892263e0cb3fe9ccfff00504b03041400000808002bb84346287e18aa4300000048000000120024006772617068305f656469746f722e6a736f6e0a0020000000000001001800da09249f3740d001d009249f3740d001c609249f3740d001ab56cac94fce4e4d51b22a292a4dd5512acec82f77ad28294a54b24a4bcc29068a94a456949416a58665166726e5a4c2d4156496e59728592939a7e695a41629d50200504b03041400000808002bb8434669bc26197400000083000000090024006d6574612e6a736f6e0a00200000000000010018004611249f3740d0013c11249f3740d0013211249f3740d0011d8cb10e82301040ffe5666cce8a20ac0c6cc6dd305cbd033a7825a59818e3bf4bdddef0defbc04be2ea83420b277336160a98222df30aed71c7cdf34e7768f841e3054bac2b242bee4035b3b30d128b43a94a180a48ef45aef4947f71a3348f5ed9eb64fae8b9cfd76c6960e9c2a6296b387c7f504b01022d001400000808002bb843463f31c55b3f020000550400000b00240000000000000000000000000000006772617068302e6a736f6e0a00200000000000010018002cfe239f3740d00122fe239f3740d00118fe239f3740d001504b01022d001400000808002bb84346287e18aa430000004800000012002400000000000000000000008c0200006772617068305f656469746f722e6a736f6e0a0020000000000001001800da09249f3740d001d009249f3740d001c609249f3740d001504b01022d001400000808002bb8434669bc261974000000830000000900240000000000000000000000230300006d6574612e6a736f6e0a00200000000000010018004611249f3740d0013c11249f3740d0013211249f3740d001504b050600000000030003001c010000e20300000000
+    data: 504b03041400000808004d0b4446c3baf65a31020000460400000b0024006772617068302e6a736f6e0a0020000000000001001800ac4e44e34b40d001ac4e44e34b40d001ac4e44e34b40d0015d53db8eda3010fd95cacf04d9269084b72decd24adbee6a69d587aa0f4e3280456223dbe9022bfebd63e7520024949c33977366860fb26d6449e61fe4afa81a2073929585d8a434a6c98c0a0e792492b2cc794645093985594c2e2322ec010af7269cd464ce46445a5d8333b27850db0aabd01131da795af9da47328f32c44e8139e32fd6284039301dcdd37136e38cc59310c593314be378c2d810dea8a212f501cab53c439f45dba28cfa08a54b68498ed5755549dbf577a783b7f6264e64444a2950abef8cc57720b73b779bf1b2d95870ad09715a4a83564321f259bb1d56a885dd5f8d6cca2697bed2b75b2a62c86c8caebf747d9857ec76b2d8a39842588436a2b2700b2eaf253687ce6deb758a83a2f12c8ed3c788a6613c111d67ed27be5cf958eca04031ce34d0cbbb811af52eaabdc82bf8b503f55daf8c6e5439b016f8b27db978cbc74525eb3ca8e85f1e8ed286d121b0aeb49fb1df32185cc457941ff66f430a625ed24f0b3fc4d60ea63bf8491aeb90087e45e3f4b354fb9591e5ffc81e5d4aeb9e652dc32c71e7de56ae1b8391e431cc1827d0b885360a3cd89a398012953bbd623777bbe13b66e877873f89c2e9761f1dd35dfa6d78008758bf6ba9305f54af2d1f5ae2a0542f4ce1a251b9f7fa6965c4c19f5769c4fb4a9e6b3dc8976aa3d78501502f21b76b5a0bfccb1d8773c3f0dfacbb84341dd1ee7b773057c712e83e2399e123cb38cd78ca3132412e4ad8984e122c16713e4ed9743a9b707c1e6729e5131f85497f2e977f504b03041400000808004d0b4446287e18aa4300000048000000120024006772617068305f656469746f722e6a736f6e0a0020000000000001001800bd7544e34b40d001bd7544e34b40d001bd7544e34b40d001ab56cac94fce4e4d51b22a292a4dd5512acec82f77ad28294a54b24a4bcc29068a94a456949416a58665166726e5a4c2d4156496e59728592939a7e695a41629d50200504b03041400000808004d0b444669bc26197400000083000000090024006d6574612e6a736f6e0a0020000000000001001800ce9c44e34b40d001ce9c44e34b40d001ce9c44e34b40d0011d8cb10e82301040ffe5666cce8a20ac0c6cc6dd305cbd033a7825a59818e3bf4bdddef0defbc04be2ea83420b277336160a98222df30aed71c7cdf34e7768f841e3054bac2b242bee4035b3b30d128b43a94a180a48ef45aef4947f71a3348f5ed9eb64fae8b9cfd76c6960e9c2a6296b387c7f504b01022d001400000808004d0b4446c3baf65a31020000460400000b00240000000000000000000000000000006772617068302e6a736f6e0a0020000000000001001800ac4e44e34b40d001ac4e44e34b40d001ac4e44e34b40d001504b01022d001400000808004d0b4446287e18aa430000004800000012002400000000000000000000007e0200006772617068305f656469746f722e6a736f6e0a0020000000000001001800bd7544e34b40d001bd7544e34b40d001bd7544e34b40d001504b01022d001400000808004d0b444669bc261974000000830000000900240000000000000000000000150300006d6574612e6a736f6e0a0020000000000001001800ce9c44e34b40d001ce9c44e34b40d001ce9c44e34b40d001504b050600000000030003001c010000d40300000000
     data_backup: 
     data_cachedStartup: 
     revertData: 
@@ -3635,7 +3635,7 @@ MonoBehaviour:
   minAreaSize: 10
   limitGraphUpdates: 1
   maxGraphUpdateFreq: .200000003
-  lastScanTime: .0100005995
+  lastScanTime: .00900049973
   inGameDebugPath: 
   isScanning: 0
   showGraphs: 1
@@ -3650,7 +3650,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!1 &1022542051
 GameObject:
   m_ObjectHideFlags: 0
@@ -4014,7 +4014,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
 --- !u!114 &1077146497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4387,7 +4387,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 456528, guid: 2d85f82ba517d624ca7271d65dd602fe, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2d85f82ba517d624ca7271d65dd602fe, type: 2}
@@ -4443,7 +4443,7 @@ Transform:
   m_LocalScale: {x: .379999995, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
 --- !u!1 &1165648746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4585,7 +4585,7 @@ Transform:
   m_LocalScale: {x: 2.75434566, y: 2.50521517, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
 --- !u!1 &1194554620
 GameObject:
   m_ObjectHideFlags: 0
@@ -4671,7 +4671,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 16
 --- !u!1 &1208262379
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,7 +4844,7 @@ Transform:
   m_LocalScale: {x: -1.23750854, y: 1.10000038, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
 --- !u!61 &1214127461
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5452,7 +5452,7 @@ Transform:
   - {fileID: 782106534}
   - {fileID: 1813694825}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!114 &1284683229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6002,7 +6002,7 @@ Transform:
   - {fileID: 365388049}
   - {fileID: 2086598487}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1 &1340173060
 GameObject:
   m_ObjectHideFlags: 0
@@ -6224,7 +6224,7 @@ Transform:
   - {fileID: 1208262385}
   - {fileID: 1275745242}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &1411096782
 GameObject:
   m_ObjectHideFlags: 0
@@ -6322,7 +6322,7 @@ Transform:
   - {fileID: 854604451}
   - {fileID: 1789835860}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!1 &1431323766
 GameObject:
   m_ObjectHideFlags: 0
@@ -6763,7 +6763,7 @@ GameObject:
   - 60: {fileID: 1581216100}
   - 95: {fileID: 1581216103}
   m_Layer: 0
-  m_Name: enemyFighter
+  m_Name: Fighter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6821,7 +6821,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 5
 --- !u!95 &1581216103
 Animator:
   serializedVersion: 3
@@ -7644,7 +7644,7 @@ Transform:
   m_LocalScale: {x: .419999987, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
 --- !u!1 &1975192158
 GameObject:
   m_ObjectHideFlags: 0
@@ -8098,7 +8098,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 456528, guid: 2d85f82ba517d624ca7271d65dd602fe, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2d85f82ba517d624ca7271d65dd602fe, type: 2}
