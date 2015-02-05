@@ -6,12 +6,16 @@ namespace AdventureMage.Actors
     {
         [SerializeField] private bool facingRight = true;
 		public int health = 10;
-
+		public int damage = 3;
         private impAI AI;
         private Animator anim;
-        private void Awake()
+		private AdventureMage.DamageType dmg; 
+		
+		
+		private void Awake()
         {
-            AI = GetComponent<impAI>();
+			dmg = new AdventureMage.DamageType(damage);
+			AI = GetComponent<impAI>();
             anim = GetComponentInChildren<Animator>();
             if (!facingRight) {
                 Flip();
@@ -31,7 +35,13 @@ namespace AdventureMage.Actors
             theScale.x *= -1;
             transform.localScale = theScale;
         }
-
+		
+		private void OnCollisionEnter2D(Collision2D coll) {
+			Debug.Log ("did damage");
+			coll.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
+		}
+		
+		
         void Update()
         {
             anim.SetFloat("targetDistance", Vector3.Distance(transform.position, AI.Target.transform.position));
