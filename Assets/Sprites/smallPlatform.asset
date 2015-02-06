@@ -3072,70 +3072,70 @@ MonoBehaviour:
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 483
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 498
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 513
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 528
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 543
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 558
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 573
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 588
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 603
       y: 367.5
       width: 14
       height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 618
@@ -3217,1902 +3217,1902 @@ MonoBehaviour:
       serializedVersion: 2
       x: 303
       y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .254901975, g: .564705908, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .254901975, g: .564705908, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 573
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .254901975, g: .564705908, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .34117648, g: .68235296, b: .0588235296, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: .254901975, g: .564705908, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 382.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .254901975, g: .56078434, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .254901975, g: .564705908, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .254901975, g: .564705908, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 573
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 397.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 573
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 412.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .835294127, g: .294117659, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .835294127, g: .294117659, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 573
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 427.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 573
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 442.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .835294127, g: .294117659, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 573
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: .345098048, g: .164705887, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 457.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .835294127, g: .294117659, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 472.5
       width: 14
       height: 14
     color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
-      x: 573
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 472.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
       x: 318
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 333
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 348
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 363
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 378
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 393
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 408
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 423
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 438
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 453
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
   - rect:
       serializedVersion: 2
       x: 468
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: .835294127, g: .294117659, b: 0, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 483
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 498
-      y: 487.5
+      y: 382.5
       width: 14
       height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 513
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 528
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 543
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 558
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: .572549045, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 573
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: .431372553, g: .211764708, b: .0117647061, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 588
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 603
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 618
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 633
-      y: 487.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 168
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 183
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 198
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 213
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 228
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 243
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 258
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 273
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 288
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 303
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 318
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 333
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 348
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 363
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 378
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 393
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 408
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 423
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: 0, g: 0, b: 0, a: 0}
-  - rect:
-      serializedVersion: 2
-      x: 438
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 453
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: .835294127, g: .294117659, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 468
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: .701960802, g: .36470589, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 483
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 498
-      y: 502.5
-      width: 14
-      height: 14
-    color: {r: .576470613, g: .274509817, b: 0, a: 1}
-  - rect:
-      serializedVersion: 2
-      x: 513
-      y: 502.5
+      y: 382.5
       width: 14
       height: 14
     color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 528
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 382.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .580392182, g: .274509817, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 397.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 412.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 427.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 442.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .490196079, g: .23137255, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 457.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: .388235301, g: .184313729, b: 0, a: 1}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 472.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 543
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 558
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 573
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 588
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 603
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 618
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 633
+      y: 487.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 168
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 183
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 198
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 213
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 228
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 243
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 258
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 273
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 288
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 303
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 318
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 333
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 348
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 363
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 378
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 393
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 408
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 423
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 438
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 453
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 468
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 483
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 498
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 513
+      y: 502.5
+      width: 14
+      height: 14
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - rect:
+      serializedVersion: 2
+      x: 528
       y: 502.5
       width: 14
       height: 14
@@ -5298,14 +5298,14 @@ MonoBehaviour:
       y: 517.5
       width: 14
       height: 14
-    color: {r: .776470602, g: .20784314, b: 0, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 453
       y: 517.5
       width: 14
       height: 14
-    color: {r: .313725501, g: .149019614, b: 0, a: 1}
+    color: {r: 0, g: 0, b: 0, a: 0}
   - rect:
       serializedVersion: 2
       x: 468
@@ -7185,6 +7185,6 @@ MonoBehaviour:
   _gridSpacing: 14
   gridOffsetY: 0
   gridOffsetX: 0
-  selectedColor: {r: .705882311, g: .36511153, b: 0, a: 1}
+  selectedColor: {r: .388235301, g: .184313729, b: 0, a: 1}
   tool: 0
   gridBGIndex: 0
