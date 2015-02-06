@@ -18,19 +18,18 @@ public class blobAI : MonoBehaviour {
 			originX = transform.position.x;
 		}
 		public void takeDamage(AdventureMage.DamageType dmg)
-			{
+        {
 			health -= dmg.damage;
-			}
+        }
 		
 		private void OnCollisionEnter2D(Collision2D coll) {
-			Debug.Log ("did damage");
-				coll.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
-			}
+            coll.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
+        }
 		
 		void Update () {
 			transform.position = new Vector3(Mathf.PingPong((Time.time* speed)+platOffSet , length) + originX, transform.position.y, transform.position.z);
-		if(health <= 0){
-			Destroy(gameObject);
+            if(health <= 0){
+                Destroy(gameObject);
 			}
 		}
 	}

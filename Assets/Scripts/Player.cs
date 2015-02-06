@@ -3,7 +3,7 @@
 namespace AdventureMage.Actors
 {
 
-    public class Player : MonoBehaviour
+    public class Player : Entity
     {
         private bool facingRight = true; // For determining which way the player is currently facing.
 
@@ -23,7 +23,7 @@ namespace AdventureMage.Actors
         private float ceilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         private Animator anim; // Reference to the player's animator component.
 
-        public int health = 25;
+        public int startingMaxHealth = 25;
 
         private bool shooting = false;
 
@@ -33,6 +33,9 @@ namespace AdventureMage.Actors
             groundCheck = transform.Find("GroundCheck");
             ceilingCheck = transform.Find("CeilingCheck");
             anim = GetComponent<Animator>();
+
+            setMaxHealth(startingMaxHealth);
+            setHealth(startingMaxHealth);
         }
 
         private void FixedUpdate()
@@ -55,20 +58,20 @@ namespace AdventureMage.Actors
                 anim.SetBool("Shooting", false);
             }
 
-            if (health <= 0) {
+            if (getHealth() <= 0) {
                 Application.LoadLevel(Application.loadedLevel);
             }
         }
 
-        public void takeDamage(AdventureMage.DamageType dmg)
+        public override void takeDamage(AdventureMage.DamageType dmg)
         {
             foreach (string immune in dmg.immune) {
                 if (immune == "player") {
                     return;
                 }
             }
-            Debug.Log("Not immune: " + dmg.damage);
-			health -= dmg.damage;
+			setHealth(getHealth() - dmg.damage);
+            Debug.Log("Player health: " + getHealth());
         }
 
         public Vector3 getPosition()
