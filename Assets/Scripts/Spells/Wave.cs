@@ -18,7 +18,7 @@ namespace AdventureMage.Actors.Spells
 
         private void Awake()
         {
-            transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+            transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
             currentForce = pushForce;
             Destroy(gameObject, Duration);
             dmg = new AdventureMage.DamageType(damage, null, new string[] {"player"});
