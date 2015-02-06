@@ -58,7 +58,7 @@ Animator:
   m_GameObject: {fileID: 169268}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8b92ad1d256e8f547a20d339480b4229, type: 2}
+  m_Controller: {fileID: 9100000, guid: 228bb75d86efab947a321bf2e8c3dfbb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -78,6 +78,7 @@ MonoBehaviour:
   turnSpeed: 0
   moveSpeed: .200000003
   Duration: .5
+  damage: 1
   pushForce: 20
 --- !u!212 &21269268
 SpriteRenderer:
@@ -99,7 +100,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 859734157
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 1c55a9eb10759814b858b642e1645cc2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: afe1102512370f5468c6a50bb646e0f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
