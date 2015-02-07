@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.0900002, y: 3.28999996, z: 0}
+  m_LocalPosition: {x: -57.4099998, y: 5.76999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   maxDistance: 15
   verticleIgnore: 7
   damage: 4
-  health: 15
+  health: 22
   isRight: 0
 --- !u!212 &21256528
 SpriteRenderer:
