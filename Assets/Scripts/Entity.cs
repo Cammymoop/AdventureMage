@@ -23,7 +23,7 @@ namespace AdventureMage.Actors
 
         public virtual void setMaxHealth(int h)
         {
-            maxHealth = health;
+            maxHealth = h;
         }
 
         public virtual void setHealth(int h)
