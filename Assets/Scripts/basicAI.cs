@@ -15,6 +15,8 @@ namespace AdventureMage.Actors
         public float maxDistance = 15f;
         public float verticleIgnore = 7f;
 
+        private float stopFactor = 0.7f;
+
         public int damage = 4;
 
         public int health = 15;
@@ -33,6 +35,9 @@ namespace AdventureMage.Actors
 
             anim = GetComponent<Animator>();
             dmg = new AdventureMage.DamageType(damage);
+
+            moveSpeed = moveSpeed * rigidbody2D.mass;
+            chargeSpeed = chargeSpeed * rigidbody2D.mass;
         }    
 
         void Start () {
@@ -77,6 +82,7 @@ namespace AdventureMage.Actors
                     if (Time.time - lastCharge > chargeTime) {
                         setState("idle");
                         lastCharge = Time.time;
+                        stopMoving();
                     }
                     break;
                 case "idle":
@@ -86,13 +92,20 @@ namespace AdventureMage.Actors
                         lastCharge = Time.time;
                     } else if (distance < maxDistance) {
                         setState("defending");
+                        stopMoving();
                     }
                     break;
                 default:
                     setState("idle");
                     break;
             }
-            rigidbody2D.velocity = new Vector2(move, rigidbody2D.velocity.y);
+
+            float velocityX = rigidbody2D.velocity.x;
+            float diff = move - (velocityX * rigidbody2D.mass);
+            move = diff;
+
+            rigidbody2D.AddForce(new Vector2(move * 1.4f, 0));
+
             if (health <= 0)
             {
                 Destroy(gameObject);
@@ -103,6 +116,12 @@ namespace AdventureMage.Actors
             if (curState == "charging") {
                 coll.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
             }
+        }
+
+        private void stopMoving() {
+            Vector2 currentVelocity = rigidbody2D.velocity;
+            Vector2 oppositeForce = -currentVelocity;
+            rigidbody2D.AddRelativeForce(new Vector2(oppositeForce.x * stopFactor * rigidbody2D.mass, 0), ForceMode2D.Impulse);
         }
 
         private void setState(string state) {

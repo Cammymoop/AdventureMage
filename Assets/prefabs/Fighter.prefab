@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.4099998, y: 5.76999998, z: 0}
+  m_LocalPosition: {x: 40.2000008, y: 2.4000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38,7 +38,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156528}
-  m_Mass: 1
+  m_Mass: 3.41000009
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
@@ -54,7 +54,7 @@ PolygonCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156528}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 16115038369c22d49ba64e5691f7d36d, type: 2}
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
@@ -93,9 +93,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: 1.60000002
-  chargeSpeed: 7
-  chargeTime: 2
+  moveSpeed: 5.51999998
+  chargeSpeed: 15.6400003
+  chargeTime: 1.50999999
   chargeDelay: 2
   minDistance: 3.5
   maxDistance: 15

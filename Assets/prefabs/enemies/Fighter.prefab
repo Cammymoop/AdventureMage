@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   moveSpeed: 1.60000002
-  chargeSpeed: 7
+  chargeSpeed: 14.5799999
   chargeTime: 2
   chargeDelay: 2
   minDistance: 3.5

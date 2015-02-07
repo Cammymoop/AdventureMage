@@ -37,7 +37,6 @@ namespace AdventureMage.Actors
         }
 		
 		private void OnCollisionEnter2D(Collision2D coll) {
-			Debug.Log ("did damage");
 			coll.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
 		}
 		
