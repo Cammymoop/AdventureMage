@@ -13,6 +13,8 @@ public class impAI : MonoBehaviour {
 	public ForceMode2D fMode;
 	[HideInInspector]
 	public bool pathIsEnded = false;
+
+    public float aggroDistance = 12f;
 	
 	public float nextWayPointDistance = 3;
 	
@@ -67,6 +69,11 @@ public class impAI : MonoBehaviour {
 		}
 		if (path == null)
 			return;
+
+        float targetDistance = Vector3.Distance(Target.position, transform.position);
+        if (targetDistance > aggroDistance) {
+            return; // Target is out of range
+        }
 		
 		if (currentWaypoint >= path.vectorPath.Count) {
 			if (pathIsEnded)
