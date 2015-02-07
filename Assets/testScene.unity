@@ -6945,7 +6945,6 @@ GameObject:
   - 4: {fileID: 1284683228}
   - 212: {fileID: 1284683238}
   - 95: {fileID: 1284683237}
-  - 58: {fileID: 1284683236}
   - 50: {fileID: 1284683235}
   - 114: {fileID: 1284683234}
   - 114: {fileID: 1284683233}
@@ -7103,18 +7102,6 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!58 &1284683236
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5816352, guid: 69f816d07fca67e48b9162664c7aa683,
-    type: 2}
-  m_PrefabInternal: {fileID: 1592398112}
-  m_GameObject: {fileID: 1284683227}
-  m_Enabled: 0
-  m_Material: {fileID: 6200000, guid: 6018d20b21177f146a1359ca275f4c39, type: 2}
-  m_IsTrigger: 0
-  m_Radius: .18183212
-  m_Center: {x: .100000001, y: -.400000006}
 --- !u!95 &1284683237
 Animator:
   serializedVersion: 3
@@ -8951,7 +8938,8 @@ Prefab:
       propertyPath: deltaX
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5816352, guid: 69f816d07fca67e48b9162664c7aa683, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 69f816d07fca67e48b9162664c7aa683, type: 2}
   m_RootGameObject: {fileID: 1284683227}
   m_IsPrefabParent: 0
