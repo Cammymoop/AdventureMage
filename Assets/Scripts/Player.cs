@@ -70,6 +70,7 @@ namespace AdventureMage.Actors
                     return;
                 }
             }
+            audio.Play ();
 			setHealth(getHealth() - dmg.damage);
             Debug.Log("Player health: " + getHealth());
         }
