@@ -132,7 +132,7 @@ namespace AdventureMage.Actors
             float angle = Vector2.Angle(target.position - position, new Vector2(1, 0)) * sign;
             rot.eulerAngles = new Vector3(0, 0, angle * sign);
 
-            GameObject obj = Instantiate(projectile, position, rot) as GameObject;
+            GameObject obj = (Instantiate(projectile, position, rot) as Transform).gameObject;
             obj.BroadcastMessage("Fire");
         }
 
@@ -145,6 +145,7 @@ namespace AdventureMage.Actors
         private void setState(string state) {
             anim.SetBool("Evading", (state == "evading"));
             anim.SetBool("Attacking", (state == "attacking"));
+            anim.SetBool("Shooting", (state == "attacking" ? anim.GetBool("Shooting") : false));
             curState = state;
         }
 

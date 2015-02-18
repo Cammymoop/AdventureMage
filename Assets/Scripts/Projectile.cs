@@ -38,10 +38,13 @@ namespace AdventureMage.Actors
         }
 
         private void FixedUpdate() {
+            if (isActive) {
+                rigidbody2D.MoveRotation(AdventureMage.Util.Math.angleFromVector(rigidbody2D.velocity));
+            }
         }
 
         private void OnTriggerEnter2D(Collider2D obj) {
-            if (isActive) {
+            if (!obj.isTrigger && isActive) {
                 obj.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
 
                 if (stick) {

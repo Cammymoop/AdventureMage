@@ -94,9 +94,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   moveSpeed: 12.1499996
-  shotDelay: .800000012
+  shotDelay: 1.99000001
   minDistance: 5.82999992
-  maxDistance: 19
+  maxDistance: 14.1099997
   verticleIgnore: 7
   projectile: {fileID: 421652, guid: 3c84d0673813f0b4eaf79d81840e4780, type: 2}
   projDeltaX: 2.20000005
