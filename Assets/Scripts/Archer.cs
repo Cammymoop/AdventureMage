@@ -132,7 +132,8 @@ namespace AdventureMage.Actors
             float angle = Vector2.Angle(target.position - position, new Vector2(1, 0)) * sign;
             rot.eulerAngles = new Vector3(0, 0, angle * sign);
 
-            Object obj = Instantiate(projectile, position, rot);
+            GameObject obj = Instantiate(projectile, position, rot) as GameObject;
+            obj.BroadcastMessage("Fire");
         }
 
         private void stopMoving() {
