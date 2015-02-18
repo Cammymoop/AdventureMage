@@ -81,7 +81,7 @@ namespace AdventureMage.Actors
                     break;
                 case "attacking":
                     if (Time.time - lastShot > shotDelay && distance > minDistance) {
-                        shootAThing();
+                        startShooting();
                         lastShot = Time.time;
                     }
                     break;
@@ -115,10 +115,17 @@ namespace AdventureMage.Actors
                 coll.gameObject.BroadcastMessage("takeDamage", dmg, SendMessageOptions.DontRequireReceiver);
             }
         }
+        
+		private void stopShooting() {
+			anim.SetBool("Shooting", false);
+		}
+		
+		private void startShooting() {
+			anim.SetBool("Shooting", true);
+		}
 
         private void shootAThing() {
             float sign = (facingRight ? 1f : -1f);
-            anim.SetBool("Shooting", true);
             Vector3 position = new Vector3(transform.position.x + (projDeltaX * sign), transform.position.y + projDeltaY, transform.position.z);
 
             Quaternion rot = Quaternion.identity;
