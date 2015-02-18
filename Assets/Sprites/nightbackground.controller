@@ -20,6 +20,21 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!1102 &110225434
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: archerShootAnim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: aced9461a90157440a774550cf3745a2, type: 2}
+  m_ParentStateMachine: {fileID: 110751828}
+  m_Position: {x: 120, y: 180, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1102 &110251828
 State:
   m_ObjectHideFlags: 3
@@ -61,6 +76,7 @@ StateMachine:
   m_States:
   - {fileID: 110251828}
   - {fileID: 110288878}
+  - {fileID: 110225434}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions: {}

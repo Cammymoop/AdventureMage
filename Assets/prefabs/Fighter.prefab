@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.2000008, y: 2.4000001, z: 0}
+  m_LocalPosition: {x: 153.100006, y: 5.30000019, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -93,10 +93,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  moveSpeed: 5.51999998
+  moveSpeed: 5.78999996
   chargeSpeed: 15.6400003
   chargeTime: 1.50999999
-  chargeDelay: 2
+  chargeDelay: 5.11999989
   minDistance: 3.5
   maxDistance: 15
   verticleIgnore: 7

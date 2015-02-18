@@ -98,10 +98,49 @@ Transition:
     m_ConditionEvent: Attacking
     m_EventTreshold: 0
     m_ExitTime: .899999976
+  - m_ConditionMode: 2
+    m_ConditionEvent: Shooting
+    m_EventTreshold: 0
+    m_ExitTime: .899999976
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &110197372
+Transition:
+  serializedVersion: 2
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110270130}
+  m_DstState: {fileID: 110214042}
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Shooting
+    m_EventTreshold: 0
+    m_ExitTime: 1
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+  m_CanTransitionToSelf: 0
+--- !u!1102 &110214042
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: archerShootAnim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: aced9461a90157440a774550cf3745a2, type: 2}
+  m_ParentStateMachine: {fileID: 110719826}
+  m_Position: {x: 144, y: 348, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1102 &110270130
 State:
   m_ObjectHideFlags: 3
@@ -111,7 +150,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 8f8c638ad4783154aa1f3510fa260357, type: 2}
+  - {fileID: 7400000, guid: a9b1cfa5c654a1942b80b12e1c2db649, type: 2}
   m_ParentStateMachine: {fileID: 110719826}
   m_Position: {x: 84, y: 252, z: 0}
   m_IKOnFeet: 0
@@ -126,7 +165,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 2390766f28b757d4c9b45e254cd5d40c, type: 2}
+  - {fileID: 7400000, guid: 1c6d13c536fb5f849b28c3051a03be38, type: 2}
   m_ParentStateMachine: {fileID: 110719826}
   m_Position: {x: 216, y: 120, z: 0}
   m_IKOnFeet: 0
@@ -159,14 +198,12 @@ StateMachine:
   - {fileID: 110274766}
   - {fileID: 110285882}
   - {fileID: 110270130}
+  - {fileID: 110214042}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110270130}
-      second: []
-    data:
-      first: {fileID: 110285882}
+      first: {fileID: 110214042}
       second: []
     data:
       first: {fileID: 0}
@@ -175,8 +212,15 @@ StateMachine:
       - {fileID: 110167138}
       - {fileID: 110192426}
     data:
+      first: {fileID: 110285882}
+      second: []
+    data:
       first: {fileID: 110274766}
       second: []
+    data:
+      first: {fileID: 110270130}
+      second:
+      - {fileID: 110197372}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
